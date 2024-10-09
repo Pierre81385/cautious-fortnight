@@ -10,9 +10,9 @@ app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
 
-const ClickUpRouter = require("./routes/ClickUpRoutes");
+const TestRouter = require("./routes/Testing");
 
-app.use("/clickup", ClickUpRouter);
+app.use("/test", TestRouter);
 
 // Start the server
 app.listen(PORT, () => {
