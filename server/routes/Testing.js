@@ -16,7 +16,7 @@ console.log(`City: ${city}`);
 
   try {
     //your API request code here
-    const resp = await fetch(`https://api.clickup.com/api/v2/team`, {
+    const resp = await fetch(`https://api.clickup.com/api/v2/list/901103730407/task`, {
       method: "GET", //POST, PATCH, PUT, DELETE
       headers: {
         Authorization: `pk_54098740_P4VBGGM99KOH9UB3CJ60R7TH99Y2ROQX`,
@@ -27,7 +27,7 @@ console.log(`City: ${city}`);
     res.status(200).send(data); // Only send one response
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "An error occurred" }); // Handle errors properly
+    res.status(500).json({ error: `${error}` }); // Handle errors properly
   }
 });
   
