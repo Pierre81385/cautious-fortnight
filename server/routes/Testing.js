@@ -6,13 +6,13 @@ const { faker } = require('@faker-js/faker');
 router.route("/").get(async (req, res) => {
 
 // FYI enerate fake data!
-const name = faker.name.fullName();
-const email = faker.internet.email();
-const city = faker.location.city();
+// const name = faker.name.fullName();
+// const email = faker.internet.email();
+// const city = faker.location.city();
 
-console.log(`Name: ${name}`);
-console.log(`Email: ${email}`);
-console.log(`City: ${city}`);
+// console.log(`Name: ${name}`);
+// console.log(`Email: ${email}`);
+// console.log(`City: ${city}`);
 
   try {
     //your API request code here
