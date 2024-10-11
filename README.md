@@ -7,12 +7,12 @@ A Node.js server with an example route and Faker data for quick and basic API te
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+<!-- - [Screenshots](#screenshots)
 - [API](#api)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+- [Contact](#contact) -->
 
 ## Features
 
